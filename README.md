@@ -16,12 +16,16 @@ Low-dose computed tomography (LDCT) is essential in clinical settings to minimiz
 ![](src/fig3.png)
 
 ## Train
+```
 python main_up.py --config=aapm_sin_ncsnpp_up.py --workdir=exp1_up --mode=train --eval_folder=result1_up
 python main_middle.py --config=aapm_sin_ncsnpp_middle.py --workdir=exp1_middle --mode=train --eval_folder=result1_middle
 python main_down.py --config=aapm_sin_ncsnpp_down.py --workdir=exp1_down  --mode=train --eval_folder=result1_down
+```
+
 
 ## Test
+```
 python PCsampling_demo.py
-
+```
 
 
