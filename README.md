@@ -10,10 +10,11 @@ Low-dose computed tomography (LDCT) is essential in clinical settings to minimiz
 ![](img/fig1.png)
 
 ## The pipeline for iterative reconstruction stage of RAP
-![](img/fig2.jpg)
+![](img/fig2.png)
 
 ## Reconstruction results from 1e4 noise level using different methods
 ![](img/fig3.png)
+(a) The reference image, (b) FBP, (c) SART-TV, (d) CNN, (e) NCSN++, (f) U-ViT, (g) OSDM, (h) RAP (1).
 
 ## Train
 ```
